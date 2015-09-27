@@ -1,0 +1,281 @@
+@font-face {
+	font-family: LobsterTwo-BoldItalic; 
+	src: url('fonts/LobsterTwo-BoldItalic.otf');
+}
+
+header {
+    background: url('images/latte.jpg') no-repeat bottom center;
+	width: 100%; 
+	height: 60em; 
+ 
+}
+
+#header-top {
+	position: relative; 
+}
+
+#header-top-left {
+	width: 22%; 
+	color: white; 
+	font-size: 0.8em; 
+	position: absolute; 
+	top: 40%; 
+	left: 5%; 	
+}
+
+
+#header-top-left a {	
+	display: inline-block; 
+	margin: 0 1em 0 1em;  
+	color: white; 
+	text-decoration: none; 
+	font-family: Verdana; 
+}
+
+
+h1 {
+	font-family: 'LobsterTwo-BoldItalic'; 
+	font-size: 4em; 
+	color: white; 	
+	width: 30%; 
+	text-align: center; 
+	margin: auto; 
+	padding: 0 0 .3em 0; 
+	position: relative; 
+	
+}
+
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
+	text-decoration: none; 
+	color: white;
+}
+
+#header-top-right {
+	width: 23%; 
+	position: absolute; 
+	top: 40%;
+	right: 2%;	
+}
+
+form#header-search input {
+	height: 1.46em;  
+	margin: 0px; 
+	padding: 0px; 
+	border: none; 
+	float: left; 
+}
+
+form#header-search input:focus {
+	outline: none; 
+}
+
+form#header-search button {
+	height: 1.5em; 
+	width: 1.5em; 
+	margin-left: .5em;  
+	float: left; 
+}
+
+#header-cart button {
+	float: left; 
+	height: 1.5em; 
+	width: 1.5em; 
+	margin-left: 3em; 
+}
+
+#header-cart span {
+	font-family: Verdana; 
+	color: white; 
+	margin-left: .2em; 
+}
+
+div#trans-bg {
+	width: 100%; 
+	height: 100%; 	 
+	position: absolute; 
+	top: 0;   
+	background-color: #666d72;
+	opacity: 0.8;  
+}
+
+#mega-menu {
+	width: 60%; 
+	height: 5em; 
+	margin: 4em auto; 
+	position: relative; 
+}
+
+a.menu-item {
+	display: inline-block; 
+	width:  19.5%; 
+	height: 100%; 
+	border: 2px solid white;
+	border-right: 1px solid white; 
+	border-left: 1px solid white;  
+	float: left;  
+	text-align: center; 
+	line-height: 5em;
+	text-transform: uppercase; 
+	font-family: verdana; 
+	text-decoration: none; 
+	color: white;  
+}
+
+a.menu-item:hover {
+	background-color: white; 
+	color: gray; 
+	opacity: .9; 
+}
+
+#row1-wrap, #row2-wrap {position: relative;}
+
+#row1-wrap img {
+	width: 50%; 
+	display: block; 
+	float: left;
+}
+
+#row1-wrap .content {
+	width: 50%;
+	display:inline-block; 
+	height: 449px; 
+	background-color: #666d72; 
+	position: relative; 
+}
+
+
+#row2-wrap .content {
+	width: 50%; 
+	height: 449px; 
+	background-color: #d9e3e0; 
+	float: left; 
+}
+
+.content { position: relative; }
+
+.content h3 {
+	font-family: 'LobsterTwo-BoldItalic'; 
+	font-size: 2.5em; 
+	margin: 2em 1em 0.5em 2em; 
+}
+
+#row1-wrap .content	h3 { color: white; }
+#row2-wrap .content h3 { color: #666d72; }
+
+.content p {
+	width: 70%; 
+	font-size: 1em; 
+	line-height: 1.5em; 
+	margin: 0 5.3em; 
+	font-family: Arial, sans-serif; 
+}
+
+#row1-wrap .content p { color: white; }
+#row2-wrap .content p { color:  #666d72; }
+
+.btn {
+	font-family: Arial, sans-serif; 
+	text-transform: uppercase; 
+	width: 25%;
+	height: 3em; 
+	text-align: center; 
+	line-height: 3em;  	
+	margin: 5em auto;  
+}
+
+#row1-wrap .content .btn { border: 2px solid white; }
+#row2-wrap .content .btn { border: 2px solid #666d72; }
+
+
+.btn a {
+	display: block; 
+	text-decoration: none; 		
+}
+
+#row1-wrap .content .btn a { color: white; }
+#row2-wrap .content .btn a { color: #666d72; }
+
+#row1-wrap .content .btn a:hover { background-color: white; color: #666d72; }
+#row2-wrap .content .btn a:hover { background-color: #666d72; color: white }
+
+
+
+#row2-wrap img {
+	width: 50%; 
+}
+
+/*======= NEWSLETTER ======*/
+
+#sign-up {
+	background-color: #666d72; 	
+	position: relative; 
+	top: -0.16em; 
+}
+
+#sign-up h3, #news-form {
+	display: inline; 
+}
+
+#sign-up h3 {
+	color: white; 
+	text-transform: uppercase; 
+	font-family: Arial; 
+	font-weight: bold; 
+	letter-spacing: .05em; 
+	padding-right: 1em; 
+
+}
+
+#news-wrap {
+	width: 30%; 
+	margin: auto; 
+	padding: 2em 0; 
+}
+
+
+/*======= FOOTER ==========*/
+footer {
+	font-family: Arial; 
+	padding-top: 2.5em; 
+}
+
+footer .col { 
+	width: 15%; 
+	float: left; 
+	margin: 0 .5em 4em .5em; 
+	position: relative; 
+	left: 2%; 
+}
+
+footer h3 {
+	text-transform: uppercase; 
+	font-size: .8em; 
+	font-weight: bold; 
+	padding: 1em 0; 
+	border-bottom: 1px solid #CCC; 
+}
+
+footer ul li {
+	margin: 1.2em 0; 
+}
+
+footer ul li a {
+	text-decoration: none; 
+	font-size: .8em; 
+	color: #888; 
+}
+
+footer ul li a:hover {
+	text-decoration: underline; 
+}
+
+div.copyright {
+	clear: both; 
+	background-color: #e8f4f0; 
+	height: 4em; 
+	coloR: #555; 
+	font-size: .8em; 
+	line-height: 4em; 
+	padding-left: 2%; 
+}
+
